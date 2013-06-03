@@ -1,61 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ModMaven</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap -->
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="stylesheets/cssMain.css" rel="stylesheet" media="screen">
-</head>
-<body>
-  <div id="fb-root"></div>
-  <script>
-  window.fbAsyncInit = function() {
-    // init the FB JS SDK
-    FB.init({
-      appId      : '579845202048952',                        // App ID from the app dashboard
-      channelUrl : '//localhost/channel.html',              // Channel file for x-domain comms
-      status     : true,                                 // Check Facebook Login status
-      xfbml      : true                                  // Look for social plugins on the page
-    });
-
-    // Additional initialization code such as adding Event Listeners goes here
-  };
-
-  // Load the SDK asynchronously
-  (function(d, s, id){
-   var js, fjs = d.getElementsByTagName(s)[0];
-   if (d.getElementById(id)) {return;}
-   js = d.createElement(s); js.id = id;
-   js.src = "//connect.facebook.net/en_US/all.js";
-   fjs.parentNode.insertBefore(js, fjs);
- }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <div id = "navbar" class = "navbar">
-    <div class="navbar-inner">
-      <a class="brand" href="#">Mod<em>Maven</em></a>
-      <ul class="nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-      <div id="loginbutton" class="row span6 offset6">
-        <div class="fb-login-button" data-show-faces="true" data-width="300" data-max-rows="1" size="medium">Get Started Now</div>
-      </div>
-      <form id = "modsearch" class="navbar-search pull-right">
-        <input type="text" class="search-query" placeholder="Insert Module Code">
-      </form>
-    </div>  
-  </div>
-  <div id = "pagedata" class = "text-center">
-    <div id = "loginbutton" class = "row">
-    </div>
-  </div>
-  <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
-=======
     <title>ModMaven</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
@@ -102,4 +47,3 @@
 
 </body>
 </html>
-
