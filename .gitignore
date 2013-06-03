@@ -1,6 +1,7 @@
 ModMaven/.idea/
 *.bmml
 Docs/
+.pptx
 
 *.py[cod]
 
