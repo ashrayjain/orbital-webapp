@@ -1,3 +1,7 @@
+ModMaven/.idea/
+*.bmml
+Docs/
+
 *.py[cod]
 
 # C extensions
